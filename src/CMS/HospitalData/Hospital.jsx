@@ -482,9 +482,69 @@ const userData={
         "createdBy": null,
         "createdAt": "2025-02-05T09:28:50.512Z",
         "__v": 2,
-        "index": 1
+        "index": 1,
+        "paymentDetails":[
+            {
+                invoiceNo:1,
+                invoiceDate:"2025-03-05T09:28:47.311Z",
+                caseId:1,
+                invoiceAmount:1200,
+                discount:400,
+                paidAmount:600,
+                dueAmount:300
+                
+                
+            },
+            {
+                invoiceNo:2,
+                invoiceDate:"2025-04-05T09:28:47.311Z",
+                caseId:2,
+                invoiceAmount:2000,
+                discount:700,
+                paidAmount:1000,
+                dueAmount:400
+                
+                
+            },
+            {
+                invoiceNo:3,
+                invoiceDate:"2025-05-06T09:28:47.311Z",
+                caseId:3,
+                invoiceAmount:1600,
+                discount:500,
+                paidAmount:800,
+                dueAmount:500
+                
+                
+            },
+            {
+                invoiceNo:4,
+                invoiceDate:"2025-06-07T09:28:47.311Z",
+                caseId:4,
+                invoiceAmount:1800,
+                discount:600,
+                paidAmount:900,
+                dueAmount:400
+                
+                
+            },
+            {
+                invoiceNo:5,
+                invoiceDate:"2025-07-05T09:28:47.311Z",
+                caseId:5,
+                invoiceAmount:1000,
+                discount:500,
+                paidAmount:300,
+                dueAmount:200
+                
+                
+            }
+            
+        ]
     
 }
+
+
 function Hospital() {
   return (
     <>
